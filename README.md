@@ -18,6 +18,9 @@ To classify recipes into diet types (`DASH`, `Keto`, `Mediterranean`, `Paleo`, `
 - Visualize the decision-making process of the trained model.
 
 ---
+## Data
+The data used to make this model was taken from github 
+https://github.com
 
 ## Technologies Used
 
