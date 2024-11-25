@@ -62,7 +62,8 @@ https://github.com
 ### **Error Metric: Mean Squared Error (MSE)**:
 - MSE measures the average squared difference between the predicted and actual values (encoded classes for diet types).
 - The lower the MSE, the better the model’s performance.
-- 
+
+  https://github.com/Omorusi/DecisionsTress/issues/1#issue-2690051454
 ## Code
 ```python
 # Calculate Mean Squared Error
@@ -104,4 +105,4 @@ plot_tree(
 plt.title("Decision Tree Rooted on Macronutrients for Predicting Diet_type")
 plt.show()
 
-https://github.com/Omorusi/DecisionsTress/issues/1#issue-2690051454
+
