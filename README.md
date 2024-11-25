@@ -105,4 +105,4 @@ plt.title("Decision Tree Rooted on Macronutrients for Predicting Diet_type")
 plt.show()
 
 
-![decision trees](https://github.com/user-attachments/assets/3b8c37ca-545b-4899-8230-a5987a08c207)
+![image](https://github.com/user-attachments/assets/f0144d17-40e2-4464-b55b-0059e2e2cc6f)
