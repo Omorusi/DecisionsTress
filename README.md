@@ -37,7 +37,6 @@ https://github.com
 - **matplotlib**: For generating visualizations.
 
 ---
-![image](https://github.com/user-attachments/assets/854376fd-442f-4a77-8d65-7fd149b1bc25)
 ## Algorithm
 
 ### **Decision Tree Classifier**
@@ -62,8 +61,10 @@ https://github.com
 ### **Error Metric: Mean Squared Error (MSE)**:
 - MSE measures the average squared difference between the predicted and actual values (encoded classes for diet types).
 - The lower the MSE, the better the model’s performance.
+##  Visualize the Decision Tree
 
-  https://github.com/Omorusi/DecisionsTress/issues/1#issue-2690051454
+![image](https://github.com/user-attachments/assets/854376fd-442f-4a77-8d65-7fd149b1bc25)
+
 ## Code
 ```python
 # Calculate Mean Squared Error
