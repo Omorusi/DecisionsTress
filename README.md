@@ -56,14 +56,20 @@ https://github.com
 
 ### **Accuracy**:
 - The model achieved an accuracy of **38.81%** on the test dataset.
-- This accuracy reflects how often the model correctly predicts the diet type for unseen recipes.
+- This accuracy reflects how often the model correctly predicts the diet type .
 
 ### **Error Metric: Mean Squared Error (MSE)**:
 - MSE measures the average squared difference between the predicted and actual values (encoded classes for diet types).
 - The lower the MSE, the better the model’s performance.
-##  Visualize the Decision Tree
+##  Visualize the Decision Tree ( Max detph 3)
 
 ![image](https://github.com/user-attachments/assets/854376fd-442f-4a77-8d65-7fd149b1bc25)
+
+This is the representation of the decison trees which show how the tree is structre as is a max detph is 3 
+
+##  Visualize the Decision Tree  ( Max detph 4)
+![image](https://github.com/user-attachments/assets/c524cf63-a531-4b8e-82fc-dbce7e2f773a)
+This is the representation of the decison trees which show how the tree is structre as is a max detph is 4
 
 ## Code
 ```python
