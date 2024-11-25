@@ -104,5 +104,4 @@ plot_tree(
 plt.title("Decision Tree Rooted on Macronutrients for Predicting Diet_type")
 plt.show()
 
-
-![image](https://github.com/user-attachments/assets/f0144d17-40e2-4464-b55b-0059e2e2cc6f)
+https://github.com/Omorusi/DecisionsTress/issues/1#issue-2690051454
