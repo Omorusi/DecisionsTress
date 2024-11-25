@@ -37,7 +37,7 @@ https://github.com
 - **matplotlib**: For generating visualizations.
 
 ---
-
+![image](https://github.com/user-attachments/assets/854376fd-442f-4a77-8d65-7fd149b1bc25)
 ## Algorithm
 
 ### **Decision Tree Classifier**
@@ -106,4 +106,4 @@ plt.title("Decision Tree Rooted on Macronutrients for Predicting Diet_type")
 plt.show()
 
 
-![image](https://github.com/user-attachments/assets/854376fd-442f-4a77-8d65-7fd149b1bc25)
+
