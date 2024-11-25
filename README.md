@@ -66,3 +66,36 @@ from sklearn.metrics import mean_squared_error
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error (MSE): {mse:.2f}")
 
+## **Code**:
+# Adjust features to include only macronutrients
+X = data_cleaned[['Protein(g)', 'Carbs(g)', 'Fat(g)']]
+y = data_cleaned['Diet_type']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Train Decision Tree
+dt_model = DecisionTreeClassifier(random_state=42, max_depth=3)
+dt_model.fit(X_train, y_train)
+
+# Evaluate the model
+y_pred = dt_model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+# Print the accuracy
+print(f"Decision Tree Accuracy: {accuracy:.2f}")
+
+# Map the encoded Diet_type values back to their original labels
+diet_type_labels = label_encoders['Diet_type'].inverse_transform(sorted(set(y)))
+
+# Visualize the Decision Tree
+plt.figure(figsize=(16, 10))
+plot_tree(
+    dt_model,
+    feature_names=X.columns,
+    class_names=diet_type_labels,  # Use diet type labels instead of numeric classes
+    filled=True,
+    rounded=True
+)
+plt.title("Decision Tree Rooted on Macronutrients for Predicting Diet_type")
+plt.show()
