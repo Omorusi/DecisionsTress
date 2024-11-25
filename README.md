@@ -59,7 +59,8 @@ To classify recipes into diet types (`DASH`, `Keto`, `Mediterranean`, `Paleo`, `
 ### **Error Metric: Mean Squared Error (MSE)**:
 - MSE measures the average squared difference between the predicted and actual values (encoded classes for diet types).
 - The lower the MSE, the better the model’s performance.
-
+- 
+## Code
 ```python
 # Calculate Mean Squared Error
 from sklearn.metrics import mean_squared_error
